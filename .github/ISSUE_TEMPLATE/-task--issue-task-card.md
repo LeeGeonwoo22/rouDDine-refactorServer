@@ -2,7 +2,7 @@
 name: "[Task] Issue Task Card"
 about: Issue Task Card
 title: ''
-labels: ''
+labels: bug, wontfix
 assignees: ''
 
 ---
