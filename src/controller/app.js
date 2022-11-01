@@ -29,7 +29,6 @@ app.use('/users', users)
 // 고정 이미지 폴더
 app.use(express.static('/public/image'));
 
-
 module.exports = app; 
 
 
