@@ -1,4 +1,4 @@
-## 현재 아키텍처 구조 (09.08)
+## 현재 아키텍처 구조 (11.05)
 
 ```
 - src 
@@ -19,7 +19,7 @@
 			- routines.js
 			- share.js
 			- users.js
-		app.js // 각종 라우트, 미들웨어 관리 
+		- app.js // 각종 라우트, 미들웨어 관리 
 	- orm
 		- sequelize
 			- config
@@ -33,7 +33,7 @@
 			- seeders
 	- public
 		- image		
-	server.js // 서버 실행 분리 
+	- server.js // 서버 실행 분리 
 - tests
 	- test.js // jest test 
 ```
@@ -43,8 +43,6 @@
 1. `npm i` // 인스톨
 
 2. `npm start` // server.js 실행됨. 
-
-   ![스크린샷, 2022-07-28 20-31-12]((https://velog.velcdn.com/images/corepen_/post/ac70276c-ad58-442b-82af-3f574ce94888/image.png)
 
 ## 테스트 케이스 실행
 
@@ -68,7 +66,6 @@
 3. 객체 지향적으로 리팩토링하기
 
 
-
 ## 해야할것
 
 1. 기타 기능사항 테스트 케이스 만들것
@@ -76,4 +73,4 @@
 ## 현황
 
 1. test케이스 만들어보기 - 실험 테스트 완료
-2. 현재 잠정중단
+2. 현재 잠정중단(nest.js, graphQL 학습 후 재개여부 결정)
