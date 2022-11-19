@@ -13,6 +13,6 @@ router.post("/routines", create.create_Routine);
 router.get("/routines", information.info_Routine);
 router.delete("/routines", remove.delete_Routine);
 router.patch("/routines", update.update_Routine);
-router.post("/routines/finished", finish.finish_Routine);
+router.post("/finished", finish.finish_Routine);
 
 module.exports = router
